@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blooks — Blacket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      background-image: url('background-pattern.png'); /* optional silhouettes */
+      background-size: cover;
+    }
+
+    header {
+      background-color: #000;
+      padding: 15px 30px;
+      font-size: 1.8em;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: #00aaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .search-bar {
+      max-width: 600px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .search-bar input {
+      width: 80%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #222;
+      color: #fff;
+      font-size: 1em;
+    }
+
+    .pack-section {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .pack {
+      margin-bottom: 30px;
+    }
+
+    .pack h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    .blook-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .blook {
+      width: 60px;
+      height: 60px;
+      background-color: #111;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      color: #888;
+      border: 2px solid #222;
+    }
+
+    .blook.locked::before {
+      content: "🔒";
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Blacket
+  <a href="market.html">Market</a>
+</header>
+
+<div class="search-bar">
+  <input type="text" placeholder="Search">
+</div>
+
+<div class="pack-section">
+  <div class="pack">
+    <h3>Bot Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Bug Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Dino Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Candy Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Fruit Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Magic Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+      <div class="blook locked"></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <h3>Music Pack</h3>
+    <div class="blook-row">
+      <div class="blook locked"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
