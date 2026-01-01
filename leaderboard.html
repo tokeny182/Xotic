@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaderboard — Blacket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      background-image: url('background-pattern.png'); /* optional icon pattern */
+      background-size: cover;
+    }
+
+    header {
+      background-color: #000;
+      padding: 15px 30px;
+      font-size: 1.8em;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: #00aaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .leaderboard {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: #000;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .leaderboard h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .leaderboard .tokens-label {
+      text-align: right;
+      font-size: 1em;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .entry {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #222;
+    }
+
+    .entry span {
+      display: inline-block;
+    }
+
+    .rank {
+      width: 30px;
+      font-weight: bold;
+    }
+
+    .role {
+      width: 120px;
+      color: #00ffcc;
+    }
+
+    .username {
+      flex: 1;
+    }
+
+    .tokens {
+      width: 150px;
+      text-align: right;
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Blacket
+  <a href="login.html">Login</a>
+</header>
+
+<div class="leaderboard">
+  <h2>Leaderboard</h2>
+  <div class="tokens-label">Tokens 🪙</div>
+
+  <div class="entry"><span class="rank">1.</span><span class="role">[Moderator]</span><span class="username">RIC</span><span class="tokens">15,529,077 🪙</span></div>
+  <div class="entry"><span class="rank">2.</span><span class="role">[Stash]</span><span class="username">autoclaim discord.gg/kkZH6Ga7qh</span><span class="tokens">8,152,787 🪙</span></div>
+  <div class="entry"><span class="rank">3.</span><span class="role">[Plus]</span><span class="username">KingMatthew</span><span class="tokens">4,620,439 🪙</span></div>
+  <div class="entry"><span class="rank">4.</span><span class="role">[Plus]</span><span class="username">Ertian</span><span class="tokens">3,344,718 🪙</span></div>
+  <div class="entry"><span class="rank">5.</span><span class="role">[Plus]</span><span class="username">SmullCasino</span><span class="tokens">2,741,415 🪙</span></div>
+  <div class="entry"><span class="rank">6.</span><span class="role">[Plus]</span><span class="username">Rifty</span><span class="tokens">2,657,307 🪙</span></div>
+  <div class="entry"><span class="rank">7.</span><span class="role">[Tester]</span><span class="username">TYavaJ</span><span class="tokens">2,528,771 🪙</span></div>
+  <div class="entry"><span class="rank">8.</span><span class="role">[Plus]</span><span class="username">yoyo</span><span class="tokens">2,270,312 🪙</span></div>
+  <div class="entry"><span class="rank">9.</span><span class="role">[Plus]</span><span class="username">IU</span><span class="tokens">2,108,485 🪙</span></div>
+  <div class="entry"><span class="rank">10.</span><span class="role">[oo king]</span><span class="username">dylan_says_oo</span><span class="tokens">1,951,504 🪙</span></div>
+</div>
+
+</body>
+</html>
